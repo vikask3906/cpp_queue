@@ -1,3 +1,7 @@
+#ifndef TSFQUEUE_UTILS_HPP
+#define TSFQUEUE_UTILS_HPP
+
+#include <atomic>
 #include <memory>
 #include <new>
 
@@ -9,10 +13,12 @@ template <typename T> struct Node {
 template <typename T> struct Lockless_Node {
   T data;
   std::atomic<Lockless_Node *> next;
-}
+};
 } // namespace tsfqueue::__utils
 
 namespace tsfq::__impl {
 static constexpr size_t cache_line_size =
     std::hardware_destructive_interference_size;
 }
+
+#endif
