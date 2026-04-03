@@ -4,6 +4,7 @@
 #include "utils.hpp"
 #include <atomic>
 #include <memory>
+#include <thread>
 #include <type_traits>
 
 namespace tsfqueue::__impl {
@@ -24,8 +25,16 @@ template <typename T> class lockfree_spsc_unbounded {
   // some neutral element OR a false boolean whichever is applicable. Pop works
   // by returning the data stored in head node and replacing head to its next
   // node. We handle the empty queue gracefully as per the pop type.
+
+  static_assert(std::is_move_constructible_v<T>,
+                "T must be move constructible");
+
 private:
   using node = tsfqueue::__utils::Lockless_Node<T>;
+
+  // Cache-aligned to prevent false sharing between producer and consumer
+  alignas(tsfq::__impl::cache_line_size) node *head;
+  alignas(tsfq::__impl::cache_line_size) node *tail;
 
   // Add the private members :
   // 1. node* head;
@@ -53,7 +62,46 @@ public:
   // 8. Add size() function
   // 9. Any more suggestions ??
   // 10. Why no shared_ptr ?? [Reason this]
+
+  // Constructor
+  lockfree_spsc_unbounded();
+
+  // Destructor
+  ~lockfree_spsc_unbounded();
+
+  // Copy constructor and assignment operator deleted
+  lockfree_spsc_unbounded(const lockfree_spsc_unbounded &) = delete;
+  lockfree_spsc_unbounded &operator=(const lockfree_spsc_unbounded &) = delete;
+
+  // Move constructor and assignment operator deleted
+  lockfree_spsc_unbounded(lockfree_spsc_unbounded &&) = delete;
+  lockfree_spsc_unbounded &operator=(lockfree_spsc_unbounded &&) = delete;
+
+  // Push function
+  void push(T value);
+
+  // Emplace function
+  template <typename... Args>
+  void emplace(Args &&...args);
+
+  // Wait and pop function
+  void wait_and_pop(T &ref);
+
+  // Try pop function
+  bool try_pop(T &ref);
+
+  // Empty function
+  bool empty();
+
+  // Peek function
+  bool peek(T &ref);
+
+  // Size function
+  size_t size();
 };
 } // namespace tsfqueue::__impl
+
+// Include the out-of-line template definitions
+#include "impl.hpp"
 
 #endif
