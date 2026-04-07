@@ -54,6 +54,8 @@ void queue<T>::emplace(Args &&...args) {
 // Consumer-only: try to pop a value (non-blocking)
 // Returns false if queue is empty, true otherwise
 template <typename T>
+bool_queue<T>::try_pop(T & ref)
+{}
 bool queue<T>::try_pop(T &ref) {
     // head is always the stub node. The real data is in head->next.
     node *next_node = head->next.load(std::memory_order_acquire);
@@ -105,7 +107,7 @@ size_t queue<T>::size() {
         temp = temp->next.load(std::memory_order_acquire);
     }
     return count;
-}
+}       
 
 #endif
 

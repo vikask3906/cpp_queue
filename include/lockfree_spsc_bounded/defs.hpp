@@ -4,6 +4,7 @@
 #include "utils.hpp"
 #include <atomic>
 #include <memory>
+#include <thread>
 #include <type_traits>
 
 namespace tsfqueue::__impl {
@@ -19,6 +20,11 @@ template <typename T, size_t Capacity> class lockfree_spsc_bounded {
   // for a wait-free code And wait_and_pop() and wait_and_push() for a lock-less
   // code but not wait-free variant. Thus, the user is given a choice to choose
   // among the preferred endpoints as per use case.
+
+  static_assert(std::is_move_constructible_v<T>,
+                "T must be move constructible");
+  static_assert(Capacity > 0, "Capacity must be greater than 0");
+
 private:
   // Add the private members :
   // std::atomic<size_t> head;
@@ -38,6 +44,22 @@ private:
   // 6. static constexpr size_t capcity to store the capcity for operations in
   // functions Why static ?? Why constexpr ?? [Reason this]
 
+  // +1 because one slot is always wasted to distinguish full from empty
+  static constexpr size_t buffer_size = Capacity + 1;
+
+  // Cache-aligned to prevent false sharing
+  // Producer writes tail, consumer writes head — they must be on separate cache lines
+  alignas(tsfq::__impl::cache_line_size) std::atomic<size_t> head{0};
+  alignas(tsfq::__impl::cache_line_size) std::atomic<size_t> tail{0};
+
+  // Cached copies: producer caches head, consumer caches tail
+  // These avoid cross-core atomic reads on the hot path
+  alignas(tsfq::__impl::cache_line_size) size_t head_cache{0};
+  alignas(tsfq::__impl::cache_line_size) size_t tail_cache{0};
+
+  // The actual ring buffer — compile-time allocated
+  alignas(tsfq::__impl::cache_line_size) T arr[buffer_size];
+
 public:
   // Public Member functions :
   // Add appropriate constructors and destructors -> Add here only
@@ -56,7 +78,35 @@ public:
   // 9. Add size() function
   // 10. Any more suggestions ??
   // 11. Why no shared_ptr ?? [Reason this]
+
+  // Constructor
+  lockfree_spsc_bounded() = default;
+
+  // No copying or moving allowed
+  lockfree_spsc_bounded(const lockfree_spsc_bounded &) = delete;
+  lockfree_spsc_bounded &operator=(const lockfree_spsc_bounded &) = delete;
+  lockfree_spsc_bounded(lockfree_spsc_bounded &&) = delete;
+  lockfree_spsc_bounded &operator=(lockfree_spsc_bounded &&) = delete;
+
+  // Push functions (producer-only)
+  bool try_push(T value);
+  void wait_and_push(T value);
+
+  template <typename... Args>
+  bool try_emplace(Args &&...args);
+
+  // Pop functions (consumer-only)
+  bool try_pop(T &ref);
+  void wait_and_pop(T &ref);
+
+  // Query functions
+  bool empty();
+  bool peek(T &ref);
+  size_t size();
 };
 } // namespace tsfqueue::__impl
+
+// Include the out-of-line template definitions
+#include "impl.hpp"
 
 #endif
