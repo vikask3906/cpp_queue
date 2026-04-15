@@ -1,0 +1,1 @@
+-I"C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/include" -I"C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/tests" -isystem "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/include" -isystem "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest"

@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BlockingMpmcConc",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SPSC_FifoPreserved",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_concurrent.cpp",
+          "line": 36
+        },
+        {
+          "name": "MPSC_NoLossNoDuplication",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_concurrent.cpp",
+          "line": 68
+        },
+        {
+          "name": "MPMC_NoLossNoDuplication",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_concurrent.cpp",
+          "line": 109
+        }
+      ]
+    }
+  ]
+}

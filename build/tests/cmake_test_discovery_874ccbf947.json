@@ -1,0 +1,52 @@
+{
+  "tests": 8,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SpscUnboundedSeq",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "EmptyOnConstruction",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 29
+        },
+        {
+          "name": "PushThenPop",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 35
+        },
+        {
+          "name": "FifoOrdering_10Elements",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 44
+        },
+        {
+          "name": "TryPopOnEmptyReturnsFalse",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 57
+        },
+        {
+          "name": "PeekDoesNotRemove",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 66
+        },
+        {
+          "name": "EmplaceConstructsInPlace",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 84
+        },
+        {
+          "name": "BurstAndDrain_10K",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 100
+        },
+        {
+          "name": "SizeTracksOperations",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_unbounded\/test_sequential.cpp",
+          "line": 115
+        }
+      ]
+    }
+  ]
+}

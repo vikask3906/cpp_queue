@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq[1]_tests.cmake")
+  include("C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq[1]_tests.cmake")
+else()
+  add_test(test_blocking_mpmc_seq_NOT_BUILT test_blocking_mpmc_seq_NOT_BUILT)
+endif()

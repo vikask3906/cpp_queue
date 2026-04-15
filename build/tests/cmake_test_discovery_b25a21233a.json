@@ -1,0 +1,57 @@
+{
+  "tests": 9,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SpscBoundedSeq",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "EmptyOnConstruction",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 24
+        },
+        {
+          "name": "PushThenPop",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 30
+        },
+        {
+          "name": "CapacityEnforcement",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 43
+        },
+        {
+          "name": "PushAfterPartialDrain",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 56
+        },
+        {
+          "name": "FifoOrdering",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 66
+        },
+        {
+          "name": "TryPopOnEmptyReturnsFalse",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 76
+        },
+        {
+          "name": "PeekDoesNotRemove",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 82
+        },
+        {
+          "name": "EmplaceConstructsInPlace",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 100
+        },
+        {
+          "name": "SizeTracksOperations",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_sequential.cpp",
+          "line": 112
+        }
+      ]
+    }
+  ]
+}

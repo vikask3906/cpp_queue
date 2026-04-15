@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BlockingMpmcSeq",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "EmptyOnConstruction",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 26
+        },
+        {
+          "name": "NotEmptyAfterPush",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 32
+        },
+        {
+          "name": "PushThenPop",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 39
+        },
+        {
+          "name": "EmptyAfterDrain",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 47
+        },
+        {
+          "name": "FifoOrdering_10Elements",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 59
+        },
+        {
+          "name": "TryPopOnEmptyReturnsFalse",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 69
+        },
+        {
+          "name": "SharedPtrPopEmpty",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 78
+        },
+        {
+          "name": "SharedPtrPopNonEmpty",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 84
+        },
+        {
+          "name": "SizeTracksOperations",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 92
+        },
+        {
+          "name": "StringPayload",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_sequential.cpp",
+          "line": 105
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SpscBoundedEdge",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "Capacity1_SingleSlot",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_edge.cpp",
+          "line": 21
+        },
+        {
+          "name": "AlternatingPushPop_1000",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_edge.cpp",
+          "line": 44
+        },
+        {
+          "name": "RepeatedEmptyPop",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_edge.cpp",
+          "line": 57
+        },
+        {
+          "name": "FillDrainTwice",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/lockfree_spsc_bounded\/test_edge.cpp",
+          "line": 75
+        }
+      ]
+    }
+  ]
+}

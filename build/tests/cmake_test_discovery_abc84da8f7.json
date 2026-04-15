@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BlockingMpmcEdge",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "WaitAndPopBlocksUntilPush",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_edge.cpp",
+          "line": 28
+        },
+        {
+          "name": "MultipleWaitersAllWoken",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_edge.cpp",
+          "line": 47
+        },
+        {
+          "name": "AlternatingPushPop",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_edge.cpp",
+          "line": 75
+        },
+        {
+          "name": "SharedPtrOverloadConsistency",
+          "file": "C:\/Users\/Vikas Kathuria\/OneDrive\/Desktop\/tsq\/tests\/blocking_mpmc\/test_edge.cpp",
+          "line": 89
+        }
+      ]
+    }
+  ]
+}

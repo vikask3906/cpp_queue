@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge[1]_tests.cmake")
+  include("C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge[1]_tests.cmake")
+else()
+  add_test(test_lf_spsc_bounded_edge_NOT_BUILT test_lf_spsc_bounded_edge_NOT_BUILT)
+endif()

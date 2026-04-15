@@ -1,0 +1,1225 @@
+Start testing: Apr 16 01:40 India Standard Time
+----------------------------------------------------------
+1/45 Testing: BlockingMpmcSeq.EmptyOnConstruction
+1/45 Test: BlockingMpmcSeq.EmptyOnConstruction
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.EmptyOnConstruction" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.EmptyOnConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.EmptyOnConstruction
+[       OK ] BlockingMpmcSeq.EmptyOnConstruction (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.EmptyOnConstruction" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.EmptyOnConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/45 Testing: BlockingMpmcSeq.NotEmptyAfterPush
+2/45 Test: BlockingMpmcSeq.NotEmptyAfterPush
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.NotEmptyAfterPush" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.NotEmptyAfterPush" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.NotEmptyAfterPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.NotEmptyAfterPush
+[       OK ] BlockingMpmcSeq.NotEmptyAfterPush (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.NotEmptyAfterPush" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.NotEmptyAfterPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/45 Testing: BlockingMpmcSeq.PushThenPop
+3/45 Test: BlockingMpmcSeq.PushThenPop
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.PushThenPop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.PushThenPop" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.PushThenPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.PushThenPop
+[       OK ] BlockingMpmcSeq.PushThenPop (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.PushThenPop" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.PushThenPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/45 Testing: BlockingMpmcSeq.EmptyAfterDrain
+4/45 Test: BlockingMpmcSeq.EmptyAfterDrain
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.EmptyAfterDrain" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.EmptyAfterDrain" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.EmptyAfterDrain
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.EmptyAfterDrain
+[       OK ] BlockingMpmcSeq.EmptyAfterDrain (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.EmptyAfterDrain" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.EmptyAfterDrain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/45 Testing: BlockingMpmcSeq.FifoOrdering_10Elements
+5/45 Test: BlockingMpmcSeq.FifoOrdering_10Elements
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.FifoOrdering_10Elements" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.FifoOrdering_10Elements" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.FifoOrdering_10Elements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.FifoOrdering_10Elements
+[       OK ] BlockingMpmcSeq.FifoOrdering_10Elements (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.FifoOrdering_10Elements" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.FifoOrdering_10Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/45 Testing: BlockingMpmcSeq.TryPopOnEmptyReturnsFalse
+6/45 Test: BlockingMpmcSeq.TryPopOnEmptyReturnsFalse
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.TryPopOnEmptyReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.TryPopOnEmptyReturnsFalse" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.TryPopOnEmptyReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.TryPopOnEmptyReturnsFalse
+[       OK ] BlockingMpmcSeq.TryPopOnEmptyReturnsFalse (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.TryPopOnEmptyReturnsFalse" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.TryPopOnEmptyReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/45 Testing: BlockingMpmcSeq.SharedPtrPopEmpty
+7/45 Test: BlockingMpmcSeq.SharedPtrPopEmpty
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.SharedPtrPopEmpty" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.SharedPtrPopEmpty" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.SharedPtrPopEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.SharedPtrPopEmpty
+[       OK ] BlockingMpmcSeq.SharedPtrPopEmpty (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.SharedPtrPopEmpty" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.SharedPtrPopEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/45 Testing: BlockingMpmcSeq.SharedPtrPopNonEmpty
+8/45 Test: BlockingMpmcSeq.SharedPtrPopNonEmpty
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.SharedPtrPopNonEmpty" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.SharedPtrPopNonEmpty" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.SharedPtrPopNonEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.SharedPtrPopNonEmpty
+[       OK ] BlockingMpmcSeq.SharedPtrPopNonEmpty (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.SharedPtrPopNonEmpty" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.SharedPtrPopNonEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/45 Testing: BlockingMpmcSeq.SizeTracksOperations
+9/45 Test: BlockingMpmcSeq.SizeTracksOperations
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.SizeTracksOperations" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.SizeTracksOperations" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.SizeTracksOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.SizeTracksOperations
+[       OK ] BlockingMpmcSeq.SizeTracksOperations (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.SizeTracksOperations" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.SizeTracksOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/45 Testing: BlockingMpmcSeq.StringPayload
+10/45 Test: BlockingMpmcSeq.StringPayload
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_seq.exe" "--gtest_filter=BlockingMpmcSeq.StringPayload" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcSeq.StringPayload" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcSeq.StringPayload
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcSeq
+[ RUN      ] BlockingMpmcSeq.StringPayload
+[       OK ] BlockingMpmcSeq.StringPayload (0 ms)
+[----------] 1 test from BlockingMpmcSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcSeq.StringPayload" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcSeq.StringPayload" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/45 Testing: BlockingMpmcConc.SPSC_FifoPreserved
+11/45 Test: BlockingMpmcConc.SPSC_FifoPreserved
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_conc.exe" "--gtest_filter=BlockingMpmcConc.SPSC_FifoPreserved" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcConc.SPSC_FifoPreserved" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcConc.SPSC_FifoPreserved
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcConc
+[ RUN      ] BlockingMpmcConc.SPSC_FifoPreserved
+[       OK ] BlockingMpmcConc.SPSC_FifoPreserved (32 ms)
+[----------] 1 test from BlockingMpmcConc (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcConc.SPSC_FifoPreserved" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcConc.SPSC_FifoPreserved" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/45 Testing: BlockingMpmcConc.MPSC_NoLossNoDuplication
+12/45 Test: BlockingMpmcConc.MPSC_NoLossNoDuplication
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_conc.exe" "--gtest_filter=BlockingMpmcConc.MPSC_NoLossNoDuplication" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcConc.MPSC_NoLossNoDuplication" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcConc.MPSC_NoLossNoDuplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcConc
+[ RUN      ] BlockingMpmcConc.MPSC_NoLossNoDuplication
+[       OK ] BlockingMpmcConc.MPSC_NoLossNoDuplication (42 ms)
+[----------] 1 test from BlockingMpmcConc (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (42 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcConc.MPSC_NoLossNoDuplication" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcConc.MPSC_NoLossNoDuplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/45 Testing: BlockingMpmcConc.MPMC_NoLossNoDuplication
+13/45 Test: BlockingMpmcConc.MPMC_NoLossNoDuplication
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_conc.exe" "--gtest_filter=BlockingMpmcConc.MPMC_NoLossNoDuplication" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcConc.MPMC_NoLossNoDuplication" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcConc.MPMC_NoLossNoDuplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcConc
+[ RUN      ] BlockingMpmcConc.MPMC_NoLossNoDuplication
+[       OK ] BlockingMpmcConc.MPMC_NoLossNoDuplication (5012 ms)
+[----------] 1 test from BlockingMpmcConc (5012 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5013 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcConc.MPMC_NoLossNoDuplication" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcConc.MPMC_NoLossNoDuplication" time elapsed: 00:00:05
+----------------------------------------------------------
+
+14/45 Testing: BlockingMpmcEdge.WaitAndPopBlocksUntilPush
+14/45 Test: BlockingMpmcEdge.WaitAndPopBlocksUntilPush
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_edge.exe" "--gtest_filter=BlockingMpmcEdge.WaitAndPopBlocksUntilPush" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcEdge.WaitAndPopBlocksUntilPush" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcEdge.WaitAndPopBlocksUntilPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcEdge
+[ RUN      ] BlockingMpmcEdge.WaitAndPopBlocksUntilPush
+[       OK ] BlockingMpmcEdge.WaitAndPopBlocksUntilPush (59 ms)
+[----------] 1 test from BlockingMpmcEdge (59 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (59 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcEdge.WaitAndPopBlocksUntilPush" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcEdge.WaitAndPopBlocksUntilPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/45 Testing: BlockingMpmcEdge.MultipleWaitersAllWoken
+15/45 Test: BlockingMpmcEdge.MultipleWaitersAllWoken
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_edge.exe" "--gtest_filter=BlockingMpmcEdge.MultipleWaitersAllWoken" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcEdge.MultipleWaitersAllWoken" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcEdge.MultipleWaitersAllWoken
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcEdge
+[ RUN      ] BlockingMpmcEdge.MultipleWaitersAllWoken
+[       OK ] BlockingMpmcEdge.MultipleWaitersAllWoken (62 ms)
+[----------] 1 test from BlockingMpmcEdge (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcEdge.MultipleWaitersAllWoken" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcEdge.MultipleWaitersAllWoken" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/45 Testing: BlockingMpmcEdge.AlternatingPushPop
+16/45 Test: BlockingMpmcEdge.AlternatingPushPop
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_edge.exe" "--gtest_filter=BlockingMpmcEdge.AlternatingPushPop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcEdge.AlternatingPushPop" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcEdge.AlternatingPushPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcEdge
+[ RUN      ] BlockingMpmcEdge.AlternatingPushPop
+[       OK ] BlockingMpmcEdge.AlternatingPushPop (1 ms)
+[----------] 1 test from BlockingMpmcEdge (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcEdge.AlternatingPushPop" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcEdge.AlternatingPushPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/45 Testing: BlockingMpmcEdge.SharedPtrOverloadConsistency
+17/45 Test: BlockingMpmcEdge.SharedPtrOverloadConsistency
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_blocking_mpmc_edge.exe" "--gtest_filter=BlockingMpmcEdge.SharedPtrOverloadConsistency" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"BlockingMpmcEdge.SharedPtrOverloadConsistency" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockingMpmcEdge.SharedPtrOverloadConsistency
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockingMpmcEdge
+[ RUN      ] BlockingMpmcEdge.SharedPtrOverloadConsistency
+[       OK ] BlockingMpmcEdge.SharedPtrOverloadConsistency (0 ms)
+[----------] 1 test from BlockingMpmcEdge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockingMpmcEdge.SharedPtrOverloadConsistency" end time: Apr 16 01:40 India Standard Time
+"BlockingMpmcEdge.SharedPtrOverloadConsistency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/45 Testing: SpscBoundedSeq.EmptyOnConstruction
+18/45 Test: SpscBoundedSeq.EmptyOnConstruction
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.EmptyOnConstruction" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.EmptyOnConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.EmptyOnConstruction
+[       OK ] SpscBoundedSeq.EmptyOnConstruction (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.EmptyOnConstruction" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.EmptyOnConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/45 Testing: SpscBoundedSeq.PushThenPop
+19/45 Test: SpscBoundedSeq.PushThenPop
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.PushThenPop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.PushThenPop" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.PushThenPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.PushThenPop
+[       OK ] SpscBoundedSeq.PushThenPop (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.PushThenPop" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.PushThenPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/45 Testing: SpscBoundedSeq.CapacityEnforcement
+20/45 Test: SpscBoundedSeq.CapacityEnforcement
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.CapacityEnforcement" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.CapacityEnforcement" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.CapacityEnforcement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.CapacityEnforcement
+[       OK ] SpscBoundedSeq.CapacityEnforcement (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.CapacityEnforcement" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.CapacityEnforcement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/45 Testing: SpscBoundedSeq.PushAfterPartialDrain
+21/45 Test: SpscBoundedSeq.PushAfterPartialDrain
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.PushAfterPartialDrain" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.PushAfterPartialDrain" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.PushAfterPartialDrain
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.PushAfterPartialDrain
+[       OK ] SpscBoundedSeq.PushAfterPartialDrain (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.PushAfterPartialDrain" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.PushAfterPartialDrain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/45 Testing: SpscBoundedSeq.FifoOrdering
+22/45 Test: SpscBoundedSeq.FifoOrdering
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.FifoOrdering" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.FifoOrdering" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.FifoOrdering
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.FifoOrdering
+[       OK ] SpscBoundedSeq.FifoOrdering (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.FifoOrdering" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.FifoOrdering" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/45 Testing: SpscBoundedSeq.TryPopOnEmptyReturnsFalse
+23/45 Test: SpscBoundedSeq.TryPopOnEmptyReturnsFalse
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.TryPopOnEmptyReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.TryPopOnEmptyReturnsFalse" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.TryPopOnEmptyReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.TryPopOnEmptyReturnsFalse
+[       OK ] SpscBoundedSeq.TryPopOnEmptyReturnsFalse (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.TryPopOnEmptyReturnsFalse" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.TryPopOnEmptyReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/45 Testing: SpscBoundedSeq.PeekDoesNotRemove
+24/45 Test: SpscBoundedSeq.PeekDoesNotRemove
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.PeekDoesNotRemove" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.PeekDoesNotRemove" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.PeekDoesNotRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.PeekDoesNotRemove
+[       OK ] SpscBoundedSeq.PeekDoesNotRemove (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.PeekDoesNotRemove" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.PeekDoesNotRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/45 Testing: SpscBoundedSeq.EmplaceConstructsInPlace
+25/45 Test: SpscBoundedSeq.EmplaceConstructsInPlace
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.EmplaceConstructsInPlace" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.EmplaceConstructsInPlace" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.EmplaceConstructsInPlace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.EmplaceConstructsInPlace
+[       OK ] SpscBoundedSeq.EmplaceConstructsInPlace (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.EmplaceConstructsInPlace" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.EmplaceConstructsInPlace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/45 Testing: SpscBoundedSeq.SizeTracksOperations
+26/45 Test: SpscBoundedSeq.SizeTracksOperations
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_seq.exe" "--gtest_filter=SpscBoundedSeq.SizeTracksOperations" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedSeq.SizeTracksOperations" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedSeq.SizeTracksOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedSeq
+[ RUN      ] SpscBoundedSeq.SizeTracksOperations
+[       OK ] SpscBoundedSeq.SizeTracksOperations (0 ms)
+[----------] 1 test from SpscBoundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedSeq.SizeTracksOperations" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedSeq.SizeTracksOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/45 Testing: SpscBoundedConc.NoLossNoDuplication_200K
+27/45 Test: SpscBoundedConc.NoLossNoDuplication_200K
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_conc.exe" "--gtest_filter=SpscBoundedConc.NoLossNoDuplication_200K" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedConc.NoLossNoDuplication_200K" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedConc.NoLossNoDuplication_200K
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedConc
+[ RUN      ] SpscBoundedConc.NoLossNoDuplication_200K
+[       OK ] SpscBoundedConc.NoLossNoDuplication_200K (20 ms)
+[----------] 1 test from SpscBoundedConc (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedConc.NoLossNoDuplication_200K" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedConc.NoLossNoDuplication_200K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/45 Testing: SpscBoundedConc.WrapAroundMultipleLaps
+28/45 Test: SpscBoundedConc.WrapAroundMultipleLaps
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_conc.exe" "--gtest_filter=SpscBoundedConc.WrapAroundMultipleLaps" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedConc.WrapAroundMultipleLaps" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedConc.WrapAroundMultipleLaps
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedConc
+[ RUN      ] SpscBoundedConc.WrapAroundMultipleLaps
+[       OK ] SpscBoundedConc.WrapAroundMultipleLaps (1 ms)
+[----------] 1 test from SpscBoundedConc (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedConc.WrapAroundMultipleLaps" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedConc.WrapAroundMultipleLaps" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/45 Testing: SpscBoundedConc.BackPressurePreventsSilentLoss
+29/45 Test: SpscBoundedConc.BackPressurePreventsSilentLoss
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_conc.exe" "--gtest_filter=SpscBoundedConc.BackPressurePreventsSilentLoss" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedConc.BackPressurePreventsSilentLoss" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedConc.BackPressurePreventsSilentLoss
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedConc
+[ RUN      ] SpscBoundedConc.BackPressurePreventsSilentLoss
+[       OK ] SpscBoundedConc.BackPressurePreventsSilentLoss (0 ms)
+[----------] 1 test from SpscBoundedConc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedConc.BackPressurePreventsSilentLoss" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedConc.BackPressurePreventsSilentLoss" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/45 Testing: SpscBoundedConc.AuditMultiset
+30/45 Test: SpscBoundedConc.AuditMultiset
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_conc.exe" "--gtest_filter=SpscBoundedConc.AuditMultiset" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedConc.AuditMultiset" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedConc.AuditMultiset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedConc
+[ RUN      ] SpscBoundedConc.AuditMultiset
+[       OK ] SpscBoundedConc.AuditMultiset (28 ms)
+[----------] 1 test from SpscBoundedConc (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedConc.AuditMultiset" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedConc.AuditMultiset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/45 Testing: SpscBoundedEdge.Capacity1_SingleSlot
+31/45 Test: SpscBoundedEdge.Capacity1_SingleSlot
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge.exe" "--gtest_filter=SpscBoundedEdge.Capacity1_SingleSlot" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedEdge.Capacity1_SingleSlot" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedEdge.Capacity1_SingleSlot
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedEdge
+[ RUN      ] SpscBoundedEdge.Capacity1_SingleSlot
+[       OK ] SpscBoundedEdge.Capacity1_SingleSlot (0 ms)
+[----------] 1 test from SpscBoundedEdge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedEdge.Capacity1_SingleSlot" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedEdge.Capacity1_SingleSlot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/45 Testing: SpscBoundedEdge.AlternatingPushPop_1000
+32/45 Test: SpscBoundedEdge.AlternatingPushPop_1000
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge.exe" "--gtest_filter=SpscBoundedEdge.AlternatingPushPop_1000" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedEdge.AlternatingPushPop_1000" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedEdge.AlternatingPushPop_1000
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedEdge
+[ RUN      ] SpscBoundedEdge.AlternatingPushPop_1000
+[       OK ] SpscBoundedEdge.AlternatingPushPop_1000 (0 ms)
+[----------] 1 test from SpscBoundedEdge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedEdge.AlternatingPushPop_1000" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedEdge.AlternatingPushPop_1000" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/45 Testing: SpscBoundedEdge.RepeatedEmptyPop
+33/45 Test: SpscBoundedEdge.RepeatedEmptyPop
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge.exe" "--gtest_filter=SpscBoundedEdge.RepeatedEmptyPop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedEdge.RepeatedEmptyPop" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedEdge.RepeatedEmptyPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedEdge
+[ RUN      ] SpscBoundedEdge.RepeatedEmptyPop
+[       OK ] SpscBoundedEdge.RepeatedEmptyPop (0 ms)
+[----------] 1 test from SpscBoundedEdge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedEdge.RepeatedEmptyPop" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedEdge.RepeatedEmptyPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/45 Testing: SpscBoundedEdge.FillDrainTwice
+34/45 Test: SpscBoundedEdge.FillDrainTwice
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_bounded_edge.exe" "--gtest_filter=SpscBoundedEdge.FillDrainTwice" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscBoundedEdge.FillDrainTwice" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscBoundedEdge.FillDrainTwice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscBoundedEdge
+[ RUN      ] SpscBoundedEdge.FillDrainTwice
+[       OK ] SpscBoundedEdge.FillDrainTwice (0 ms)
+[----------] 1 test from SpscBoundedEdge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpscBoundedEdge.FillDrainTwice" end time: Apr 16 01:40 India Standard Time
+"SpscBoundedEdge.FillDrainTwice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/45 Testing: SpscUnboundedSeq.EmptyOnConstruction
+35/45 Test: SpscUnboundedSeq.EmptyOnConstruction
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.EmptyOnConstruction" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.EmptyOnConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.EmptyOnConstruction
+[       OK ] SpscUnboundedSeq.EmptyOnConstruction (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.EmptyOnConstruction" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.EmptyOnConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/45 Testing: SpscUnboundedSeq.PushThenPop
+36/45 Test: SpscUnboundedSeq.PushThenPop
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.PushThenPop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.PushThenPop" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.PushThenPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.PushThenPop
+[       OK ] SpscUnboundedSeq.PushThenPop (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.PushThenPop" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.PushThenPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/45 Testing: SpscUnboundedSeq.FifoOrdering_10Elements
+37/45 Test: SpscUnboundedSeq.FifoOrdering_10Elements
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.FifoOrdering_10Elements" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.FifoOrdering_10Elements" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.FifoOrdering_10Elements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.FifoOrdering_10Elements
+[       OK ] SpscUnboundedSeq.FifoOrdering_10Elements (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.FifoOrdering_10Elements" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.FifoOrdering_10Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/45 Testing: SpscUnboundedSeq.TryPopOnEmptyReturnsFalse
+38/45 Test: SpscUnboundedSeq.TryPopOnEmptyReturnsFalse
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.TryPopOnEmptyReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.TryPopOnEmptyReturnsFalse" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.TryPopOnEmptyReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.TryPopOnEmptyReturnsFalse
+[       OK ] SpscUnboundedSeq.TryPopOnEmptyReturnsFalse (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.TryPopOnEmptyReturnsFalse" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.TryPopOnEmptyReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/45 Testing: SpscUnboundedSeq.PeekDoesNotRemove
+39/45 Test: SpscUnboundedSeq.PeekDoesNotRemove
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.PeekDoesNotRemove" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.PeekDoesNotRemove" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.PeekDoesNotRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.PeekDoesNotRemove
+[       OK ] SpscUnboundedSeq.PeekDoesNotRemove (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.PeekDoesNotRemove" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.PeekDoesNotRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/45 Testing: SpscUnboundedSeq.EmplaceConstructsInPlace
+40/45 Test: SpscUnboundedSeq.EmplaceConstructsInPlace
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.EmplaceConstructsInPlace" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.EmplaceConstructsInPlace" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.EmplaceConstructsInPlace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.EmplaceConstructsInPlace
+[       OK ] SpscUnboundedSeq.EmplaceConstructsInPlace (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.EmplaceConstructsInPlace" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.EmplaceConstructsInPlace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/45 Testing: SpscUnboundedSeq.BurstAndDrain_10K
+41/45 Test: SpscUnboundedSeq.BurstAndDrain_10K
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.BurstAndDrain_10K" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.BurstAndDrain_10K" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.BurstAndDrain_10K
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.BurstAndDrain_10K
+[       OK ] SpscUnboundedSeq.BurstAndDrain_10K (1 ms)
+[----------] 1 test from SpscUnboundedSeq (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.BurstAndDrain_10K" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.BurstAndDrain_10K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/45 Testing: SpscUnboundedSeq.SizeTracksOperations
+42/45 Test: SpscUnboundedSeq.SizeTracksOperations
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_seq.exe" "--gtest_filter=SpscUnboundedSeq.SizeTracksOperations" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedSeq.SizeTracksOperations" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedSeq.SizeTracksOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedSeq
+[ RUN      ] SpscUnboundedSeq.SizeTracksOperations
+[       OK ] SpscUnboundedSeq.SizeTracksOperations (0 ms)
+[----------] 1 test from SpscUnboundedSeq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedSeq.SizeTracksOperations" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedSeq.SizeTracksOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/45 Testing: SpscUnboundedConc.StrictFIFO_100K
+43/45 Test: SpscUnboundedConc.StrictFIFO_100K
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_conc.exe" "--gtest_filter=SpscUnboundedConc.StrictFIFO_100K" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedConc.StrictFIFO_100K" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedConc.StrictFIFO_100K
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedConc
+[ RUN      ] SpscUnboundedConc.StrictFIFO_100K
+[       OK ] SpscUnboundedConc.StrictFIFO_100K (22 ms)
+[----------] 1 test from SpscUnboundedConc (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (22 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedConc.StrictFIFO_100K" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedConc.StrictFIFO_100K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/45 Testing: SpscUnboundedConc.AuditNoLossNoDuplication
+44/45 Test: SpscUnboundedConc.AuditNoLossNoDuplication
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_conc.exe" "--gtest_filter=SpscUnboundedConc.AuditNoLossNoDuplication" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedConc.AuditNoLossNoDuplication" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedConc.AuditNoLossNoDuplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedConc
+[ RUN      ] SpscUnboundedConc.AuditNoLossNoDuplication
+[       OK ] SpscUnboundedConc.AuditNoLossNoDuplication (36 ms)
+[----------] 1 test from SpscUnboundedConc (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedConc.AuditNoLossNoDuplication" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedConc.AuditNoLossNoDuplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/45 Testing: SpscUnboundedConc.SlowConsumer
+45/45 Test: SpscUnboundedConc.SlowConsumer
+Command: "C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests/test_lf_spsc_unbounded_conc.exe" "--gtest_filter=SpscUnboundedConc.SlowConsumer" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/tests
+"SpscUnboundedConc.SlowConsumer" start time: Apr 16 01:40 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Vikas Kathuria/OneDrive/Desktop/tsq/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SpscUnboundedConc.SlowConsumer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpscUnboundedConc
+[ RUN      ] SpscUnboundedConc.SlowConsumer
+[       OK ] SpscUnboundedConc.SlowConsumer (11 ms)
+[----------] 1 test from SpscUnboundedConc (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpscUnboundedConc.SlowConsumer" end time: Apr 16 01:40 India Standard Time
+"SpscUnboundedConc.SlowConsumer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 16 01:40 India Standard Time
+
+concurrency =   5.48 sec*proc
+
+edge =   0.38 sec*proc
+
+sequential =   0.77 sec*proc
+
