@@ -91,13 +91,13 @@ public:
   bool try_pop(T &ref);
 
   // Empty function
-  bool empty();
+  bool empty() const;
 
   // Peek function
-  bool peek(T &ref);
+  bool peek(T &ref) const;
 
   // Size function
-  size_t size();
+  size_t size() const;
 };
 } // namespace tsfqueue::__impl
 
